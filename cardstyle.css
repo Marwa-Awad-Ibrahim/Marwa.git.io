@@ -3,6 +3,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+h2{
+  font-size: 2rem;
+}
 .card {
     background-color: transparent;
     width: 300px;
