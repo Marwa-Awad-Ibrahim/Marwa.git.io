@@ -4,7 +4,7 @@ function myClock(){
     const hours = date.getHours();
     const minutes = date.getMinutes();
     const timeShow = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`
-    document.getElementById("clock").innerHTML= timeShow;}
+    document.getElementById("clock").innerText= timeShow;}
 
 const hamburger = document.querySelector(".hamburger");
 const navUL = document.querySelector("#navUL");
