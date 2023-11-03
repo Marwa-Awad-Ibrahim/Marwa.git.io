@@ -1,0 +1,58 @@
+html, body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+ol, ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+img{
+    width:100vw;
+    height: 80vh;
+    object-fit: contain;
+}
+ul{
+    height:80vh;
+    overflow-x:hidden;
+    scroll-snap-type:x mandatory;
+    scroll-behavior: smooth;
+}
+ol{
+    justify-content: center;  
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color:#5A4073;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:#F2CE1B;
+}
+
+li{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding:0.25rem;
+    height:100%;
+}
+ul li{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+}
+ol li{
+    padding: 0.5rem;
+}
+
+

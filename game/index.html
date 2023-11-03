@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./gamestyle.css">
+    <title>Game</title>
+</head>
+<body>
+    <nav>
+        <button class="hamburger">&#9776;</button>
+        <ul id="navUL">
+            <li><a href="../intro/index.html">Home</a></li>
+            <li><a href="../gallery/galleryindex.html">Gallery</a></li>
+            <li><a href="../CV/index.html">CV</a> </li>
+            <li><a href="index.html">Game</a> </li>
+        </ul>
+    </nav>
+    <header class="gameheader">
+        <h1>HeartSweeper</h1>
+        <span><b>Hearts count:</b> <span id="hearts-count">12</span></span>
+        <span><b>Cleared cells:</b> <span id="cleared-cells-count">0</span>/<span id="total-cells-to-clear">100</span></span>
+        <p>You can place flags on the cell by holding shift</p>
+        <p>My Game is just a modified minesweeper where you protect hearts instead of avoid bombs</p>
+    </header>
+
+    <div id="playfield">
+    </div>
+
+    <p id="message">Some message</p>
+    <footer>
+        <ul>
+            <li><img src="../assets/images/logo-removebg-preview.png"> </li>
+            <li>Copyright &#169;2023</li>
+            <li>
+                Follow Me
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/marwa-awad-microbiologist/"><ion-icon size="large" name="logo-linkedin"></ion-icon> </a>
+                    <a href="https://www.instagram.com/marwaawad99/"><ion-icon size="large" name="logo-instagram"></ion-icon></a>
+                    <a href="https://github.com/Marwa-Awad-Ibrahim"><ion-icon  size="large"name="logo-github"></ion-icon></a>
+                </li>
+
+                </ul>
+            </li>
+            <li id="clock">Time</li>
+        </ul>
+    </footer>
+    <script src="../script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
