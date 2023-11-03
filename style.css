@@ -175,6 +175,7 @@ footer a{
         border-radius: 5px;
         flex-direction: column;
         width: 100%;
+        z-index: 9;
     
     }
     nav ul{
